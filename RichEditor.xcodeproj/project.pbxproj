@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C305489C9C5E4D44ED4851 /* Pods_RichEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC51417D95781FB50DCC6F0B /* Pods_RichEditor.framework */; };
 		AA72B94A2279A6DC009778E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9492279A6DC009778E5 /* AppDelegate.swift */; };
-		AA72B94C2279A6DC009778E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B94B2279A6DC009778E5 /* ViewController.swift */; };
 		AA72B94F2279A6DC009778E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA72B94D2279A6DC009778E5 /* Main.storyboard */; };
 		AA72B9512279A6DD009778E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA72B9502279A6DD009778E5 /* Assets.xcassets */; };
 		AA72B9542279A6DD009778E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA72B9522279A6DD009778E5 /* LaunchScreen.storyboard */; };
 		AA72B95F2279A6DD009778E5 /* RichEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B95E2279A6DD009778E5 /* RichEditorTests.swift */; };
 		AA72B96A2279A6DD009778E5 /* RichEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9692279A6DD009778E5 /* RichEditorUITests.swift */; };
+		AA72B9792279A6F0009778E5 /* RichEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9782279A6F0009778E5 /* RichEditorModel.swift */; };
+		AA72B97B2279A731009778E5 /* RichEditType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B97A2279A731009778E5 /* RichEditType.swift */; };
+		AA72B97E2279A917009778E5 /* WKWebView+RichEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B97D2279A917009778E5 /* WKWebView+RichEditor.swift */; };
+		AA72B9812279A941009778E5 /* editor.zip in Resources */ = {isa = PBXBuildFile; fileRef = AA72B9802279A941009778E5 /* editor.zip */; };
+		AA72B9842279A988009778E5 /* RichEditorToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9832279A988009778E5 /* RichEditorToolBar.swift */; };
+		AA72B9862279A9AE009778E5 /* RichEditorInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9852279A9AD009778E5 /* RichEditorInputView.swift */; };
+		AA72B9882279AA0F009778E5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9872279AA0F009778E5 /* Extensions.swift */; };
+		AA72B98A2279AD93009778E5 /* RichEditorSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9892279AD93009778E5 /* RichEditorSwitch.swift */; };
+		AA72B98C2279AE60009778E5 /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B98B2279AE60009778E5 /* RichEditorView.swift */; };
+		AA72B98E2279AFC8009778E5 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B98D2279AFC8009778E5 /* Const.swift */; };
+		AA72B9902279B103009778E5 /* RichEditor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA72B98F2279B103009778E5 /* RichEditor.xcassets */; };
+		AA72B9922279B120009778E5 /* RichTextInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72B9912279B120009778E5 /* RichTextInputController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28776F75D84C1AD303D047FE /* Pods-RichEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichEditor.release.xcconfig"; path = "Target Support Files/Pods-RichEditor/Pods-RichEditor.release.xcconfig"; sourceTree = "<group>"; };
+		638E3DFA9470A7306CDDF59D /* Pods-RichEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichEditor.debug.xcconfig"; path = "Target Support Files/Pods-RichEditor/Pods-RichEditor.debug.xcconfig"; sourceTree = "<group>"; };
 		AA72B9462279A6DC009778E5 /* RichEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA72B9492279A6DC009778E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA72B94B2279A6DC009778E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA72B94E2279A6DC009778E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA72B9502279A6DD009778E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA72B9532279A6DD009778E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,19 @@
 		AA72B9652279A6DD009778E5 /* RichEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA72B9692279A6DD009778E5 /* RichEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichEditorUITests.swift; sourceTree = "<group>"; };
 		AA72B96B2279A6DD009778E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA72B9782279A6F0009778E5 /* RichEditorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorModel.swift; sourceTree = "<group>"; };
+		AA72B97A2279A731009778E5 /* RichEditType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditType.swift; sourceTree = "<group>"; };
+		AA72B97D2279A917009778E5 /* WKWebView+RichEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKWebView+RichEditor.swift"; sourceTree = "<group>"; };
+		AA72B9802279A941009778E5 /* editor.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = editor.zip; sourceTree = "<group>"; };
+		AA72B9832279A988009778E5 /* RichEditorToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorToolBar.swift; sourceTree = "<group>"; };
+		AA72B9852279A9AD009778E5 /* RichEditorInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorInputView.swift; sourceTree = "<group>"; };
+		AA72B9872279AA0F009778E5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AA72B9892279AD93009778E5 /* RichEditorSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorSwitch.swift; sourceTree = "<group>"; };
+		AA72B98B2279AE60009778E5 /* RichEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorView.swift; sourceTree = "<group>"; };
+		AA72B98D2279AFC8009778E5 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		AA72B98F2279B103009778E5 /* RichEditor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RichEditor.xcassets; sourceTree = "<group>"; };
+		AA72B9912279B120009778E5 /* RichTextInputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextInputController.swift; sourceTree = "<group>"; };
+		AC51417D95781FB50DCC6F0B /* Pods_RichEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C305489C9C5E4D44ED4851 /* Pods_RichEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				AA72B95D2279A6DD009778E5 /* RichEditorTests */,
 				AA72B9682279A6DD009778E5 /* RichEditorUITests */,
 				AA72B9472279A6DC009778E5 /* Products */,
+				DD332DCD058C6F9E3CE947D8 /* Pods */,
+				E2C823ABE184E566A08AB180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +126,12 @@
 		AA72B9482279A6DC009778E5 /* RichEditor */ = {
 			isa = PBXGroup;
 			children = (
+				AA72B9912279B120009778E5 /* RichTextInputController.swift */,
+				AA72B9822279A95C009778E5 /* View */,
+				AA72B97F2279A934009778E5 /* Resource */,
+				AA72B97C2279A907009778E5 /* Utils */,
+				AA72B9772279A6E5009778E5 /* Model */,
 				AA72B9492279A6DC009778E5 /* AppDelegate.swift */,
-				AA72B94B2279A6DC009778E5 /* ViewController.swift */,
 				AA72B94D2279A6DC009778E5 /* Main.storyboard */,
 				AA72B9502279A6DD009778E5 /* Assets.xcassets */,
 				AA72B9522279A6DD009778E5 /* LaunchScreen.storyboard */,
@@ -125,6 +158,62 @@
 			path = RichEditorUITests;
 			sourceTree = "<group>";
 		};
+		AA72B9772279A6E5009778E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA72B97A2279A731009778E5 /* RichEditType.swift */,
+				AA72B9782279A6F0009778E5 /* RichEditorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA72B97C2279A907009778E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA72B97D2279A917009778E5 /* WKWebView+RichEditor.swift */,
+				AA72B9872279AA0F009778E5 /* Extensions.swift */,
+				AA72B98D2279AFC8009778E5 /* Const.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AA72B97F2279A934009778E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA72B9802279A941009778E5 /* editor.zip */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA72B9822279A95C009778E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA72B98F2279B103009778E5 /* RichEditor.xcassets */,
+				AA72B98B2279AE60009778E5 /* RichEditorView.swift */,
+				AA72B9892279AD93009778E5 /* RichEditorSwitch.swift */,
+				AA72B9852279A9AD009778E5 /* RichEditorInputView.swift */,
+				AA72B9832279A988009778E5 /* RichEditorToolBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD332DCD058C6F9E3CE947D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638E3DFA9470A7306CDDF59D /* Pods-RichEditor.debug.xcconfig */,
+				28776F75D84C1AD303D047FE /* Pods-RichEditor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2C823ABE184E566A08AB180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC51417D95781FB50DCC6F0B /* Pods_RichEditor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA72B96E2279A6DD009778E5 /* Build configuration list for PBXNativeTarget "RichEditor" */;
 			buildPhases = (
+				DC5CD3F3DF490EFF79629BC2 /* [CP] Check Pods Manifest.lock */,
 				AA72B9422279A6DC009778E5 /* Sources */,
 				AA72B9432279A6DC009778E5 /* Frameworks */,
 				AA72B9442279A6DC009778E5 /* Resources */,
+				DC3E60052E6B3B426093CCCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA72B9542279A6DD009778E5 /* LaunchScreen.storyboard in Resources */,
+				AA72B9902279B103009778E5 /* RichEditor.xcassets in Resources */,
 				AA72B9512279A6DD009778E5 /* Assets.xcassets in Resources */,
+				AA72B9812279A941009778E5 /* editor.zip in Resources */,
 				AA72B94F2279A6DC009778E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +344,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC3E60052E6B3B426093CCCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RichEditor/Pods-RichEditor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RichEditor/Pods-RichEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5CD3F3DF490EFF79629BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RichEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA72B9422279A6DC009778E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA72B94C2279A6DC009778E5 /* ViewController.swift in Sources */,
+				AA72B9842279A988009778E5 /* RichEditorToolBar.swift in Sources */,
 				AA72B94A2279A6DC009778E5 /* AppDelegate.swift in Sources */,
+				AA72B98C2279AE60009778E5 /* RichEditorView.swift in Sources */,
+				AA72B9882279AA0F009778E5 /* Extensions.swift in Sources */,
+				AA72B9862279A9AE009778E5 /* RichEditorInputView.swift in Sources */,
+				AA72B9792279A6F0009778E5 /* RichEditorModel.swift in Sources */,
+				AA72B97E2279A917009778E5 /* WKWebView+RichEditor.swift in Sources */,
+				AA72B98A2279AD93009778E5 /* RichEditorSwitch.swift in Sources */,
+				AA72B97B2279A731009778E5 /* RichEditType.swift in Sources */,
+				AA72B98E2279AFC8009778E5 /* Const.swift in Sources */,
+				AA72B9922279B120009778E5 /* RichTextInputController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +581,7 @@
 		};
 		AA72B96F2279A6DD009778E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638E3DFA9470A7306CDDF59D /* Pods-RichEditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +600,7 @@
 		};
 		AA72B9702279A6DD009778E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28776F75D84C1AD303D047FE /* Pods-RichEditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
